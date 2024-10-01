@@ -1,5 +1,5 @@
 #include <iostream>
-#include "L303_088.h"
+#include "L303_088.hpp"
 using namespace std;
 int main() {
     //T1 - ожидаем список 3 2 1

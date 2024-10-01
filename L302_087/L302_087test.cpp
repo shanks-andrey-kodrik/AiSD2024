@@ -1,5 +1,5 @@
 #include <iostream>
-#include "L302_087.h"
+#include "L302_087.hpp"
 using namespace std;
 int main(){
     setlocale(LC_ALL, "RU");

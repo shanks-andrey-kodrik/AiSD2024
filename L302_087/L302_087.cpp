@@ -2,7 +2,7 @@
 //Рекурсивный поиск элемента в связном списке 01.10.24
 //ПМ-2024 Шарапов Даниил
 #include <iostream>
-#include "L302_087.h"
+#include "L302_087.hpp"
 using namespace std;
 struct List{
     int value;
