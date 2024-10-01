@@ -16,11 +16,11 @@ l303088o=L303_088.o L303_088test.o
 L303088.exe: $(l303088o)
 	$(CXX) -o L303088.exe $(l303088o)
 
-L303_088.o: L303_088.c
-	$(CXX) -c L303_088.c
+L303_088.o: L303_088.cpp
+	$(CXX) -c L303_088.cpp
 
-L303_088test.o: L303_088test.c L303_088.h
-	$(CXX) -c L303_088test.c
+L303_088test.o: L303_088test.cpp L303_088.hpp
+	$(CXX) -c L303_088test.cpp
 
 .PHONY: clean
 clean:
