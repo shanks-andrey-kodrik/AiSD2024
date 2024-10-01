@@ -2,7 +2,7 @@
 //Вставка элемента в однонаправленный связный список
 //ПМ-2024 Шарапов Даниил, 25.09.24
 #include <iostream>
-#include "L303_088.h"
+#include "L303_088.hpp"
 using namespace std;
 struct List {
     int value;
