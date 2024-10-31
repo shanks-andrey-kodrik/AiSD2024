@@ -9,7 +9,7 @@ struct List{
     List* next;
 };
 
-List* search_list(List* l, int x){//основная функция
+List* search_list(List* l, int x){//основная функция, которая выполняет рекурсивный поиск элемента в связаном списке
     if (l == NULL) return NULL;
     if (l->value == x) return l;
     return search_list(l->next, x);
