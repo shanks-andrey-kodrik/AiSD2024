@@ -9,14 +9,14 @@ struct List {
     List* next;
 };
 
-void insert_list(List** l, int x) {
+void insert_list(List** l, int x) {//основная функция, которая вставляет элемент в однонаправленный связный список
     List* p = new List;
     p->value = x;
     p->next = *l;      
     *l = p;            
 }
 
-void print_list(List* l) {
+void print_list(List* l) {//дополнительная функция, которая выводит элементы списка
     while (l != NULL) {
         cout << l->value << " ";
         l = l->next;
